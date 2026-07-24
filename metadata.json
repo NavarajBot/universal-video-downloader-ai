@@ -1,0 +1,6 @@
+{
+  "name": "Universal Video Downloader AI",
+  "description": "AI-powered media downloader, converter, transcript summarizer, subtitle toolkit, and video/audio enhancer with strict legal compliance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

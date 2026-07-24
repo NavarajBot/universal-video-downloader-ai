@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-sleek-dark {
+    background-color: #0F172A;
+  }
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.4);
+}
